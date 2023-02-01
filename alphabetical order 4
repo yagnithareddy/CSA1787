@@ -1,0 +1,3 @@
+k=input("Enter the string:")
+print(' '.join(sorted(k)))
+print(' '.join(reversed(sorted(k[ : :-1]))))
