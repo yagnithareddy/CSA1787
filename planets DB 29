@@ -1,0 +1,15 @@
+orbits(mercury,sun).
+orbits(venus,sun).
+orbits(earth,sun).
+orbits(mars,sun).
+orbits(moon,earth).
+orbits(phobos,mars).
+orbits(deimos,mars).
+planet(P):-orbits(P,sun).
+satellites(S):-orbits(S,P),planet(P).
+
+
+INPUT/OUTPUT:
+?- orbits(A,B).
+A = mercury,
+B = sun
