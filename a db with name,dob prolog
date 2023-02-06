@@ -1,0 +1,5 @@
+write_item(details(Age,Name,Dob,Zodiac)) :-
+    write('Name : '), write(Name), nl,
+    write('Date of Birth : '), write(Dob), nl,
+    write('Age : '), write(Age), nl,
+    write('Zodiac Sign : '), write(Zodiac), nl, nl.
